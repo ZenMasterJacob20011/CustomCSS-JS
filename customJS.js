@@ -1,3 +1,4 @@
+import {Input} from "@formio/js/types/components/_classes/input/input";
 class myInput extends Input{
     static schema(...extend){
         return Input.schema({
