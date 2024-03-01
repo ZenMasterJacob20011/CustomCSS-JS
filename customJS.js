@@ -1,5 +1,5 @@
 import {Input} from "@formio/js/types/components/_classes/input/input";
-class myInput extends Input{
+class myInputs extends Input{
     static schema(...extend){
         return Input.schema({
             type: 'mycomp',
@@ -15,7 +15,7 @@ class myInput extends Input{
             group: 'basic',
             documentation: '/userguide/#textfield',
             weight: 0,
-            schema: myInput.schema()
+            schema: myInputs.schema()
         }
     }
 
