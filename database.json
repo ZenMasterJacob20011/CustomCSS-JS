@@ -49,7 +49,7 @@
       "orders": [5]
     }
   ],
-  "ProductInformation": [
+  "productInformation": [
     {
       "productID": 1,
       "productName": "item1",
