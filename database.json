@@ -1,0 +1,72 @@
+{
+  "orderInformation": [
+    {
+      "orderID": 1,
+      "orderDate": "03/01/2022",
+      "shippingMethod": "Amazon"
+    },
+    {
+      "orderID": 2,
+      "orderDate": "15/02/2024",
+      "shippingMethod": "UPS"
+    },
+    {
+      "orderID": 3,
+      "orderDate": "08/02/2023",
+      "shippingMethod": "USPS"
+    },
+    {
+      "orderID": 4,
+      "orderDate": "08/02/2023",
+      "shippingMethod": "FedEx"
+    },
+    {
+      "orderID": 5,
+      "orderDate": "08/02/2023",
+      "shippingMethod": "Lift"
+    }
+  ],
+  "customerInformation": [
+    {
+      "customerID": 1,
+      "customerName": "Jacob",
+      "email": "myemail@example.com",
+      "phoneNumber": "281-777-7777",
+      "orders": [1, 2]
+    },
+    {
+      "customerID": 2,
+      "customerName": "Jeriah",
+      "email": "jeriah@example.com",
+      "phoneNumber": "281-777-7777",
+      "orders": [3, 4]
+    },
+    {
+      "customerID": 3,
+      "customerName": "John",
+      "email": "john@example.com",
+      "phoneNumber": "281-777-7777",
+      "orders": [5]
+    }
+  ],
+  "ProductInformation": [
+    {
+      "productID": 1,
+      "productName": "item1",
+      "price": "22.50",
+      "stockQuantity": 4
+    },
+    {
+      "productID": 2,
+      "productName": "item2",
+      "price": "66.78",
+      "stockQuantity": 6
+    },
+    {
+      "productID": 3,
+      "productName": "item3",
+      "price": "12.55",
+      "stockQuantity": 3
+    }
+  ]
+}
