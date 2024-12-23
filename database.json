@@ -1,72 +1,98 @@
-{
-  "orderInformation": [
-    {
-      "orderID": 1,
-      "orderDate": "03/01/2022",
-      "shippingMethod": "Amazon"
-    },
-    {
-      "orderID": 2,
-      "orderDate": "15/02/2024",
-      "shippingMethod": "UPS"
-    },
-    {
-      "orderID": 3,
-      "orderDate": "08/02/2023",
-      "shippingMethod": "USPS"
-    },
-    {
-      "orderID": 4,
-      "orderDate": "08/02/2023",
-      "shippingMethod": "FedEx"
-    },
-    {
-      "orderID": 5,
-      "orderDate": "08/02/2023",
-      "shippingMethod": "Lift"
-    }
-  ],
-  "customerInformation": [
-    {
+[
+  {
+    "orderID": 1,
+    "orderDate": "12/12/2024",
+    "orderMethod": "Standard",
+    "status": "shipped",
+    "shippingZipCode": "78735",
+    "customerInformation": {
       "customerID": 1,
-      "customerName": "Jacob",
-      "email": "myemail@example.com",
-      "phoneNumber": "281-777-7777",
-      "orders": [1, 2]
+      "customerFirstName": "Tom",
+      "customerLastName": "Snow",
+      "email": "tom@example.com",
+      "phoneNumber": "222-222-2222"
     },
-    {
+    "productInformation": {
+      "orderedProducts": [
+        {
+          "productID": 1,
+          "quantity": "100",
+          "productName": "paper",
+          "price": 5.00,
+          "stockQuantity": 25
+        },
+        {
+          "productID": 2,
+          "quantity": "133",
+          "productName": "book",
+          "price": 2.25,
+          "stockQuantity": 40
+        }
+      ]
+    }
+  },
+  {
+    "orderID": 2,
+    "orderDate": "04/23/2024",
+    "orderMethod": "Expedite",
+    "status": "delivered",
+    "shippingZipCode": "77450",
+    "customerInformation": {
       "customerID": 2,
-      "customerName": "Jeriah",
-      "email": "jeriah@example.com",
-      "phoneNumber": "281-777-7777",
-      "orders": [3, 4]
+      "customerFirstName": "Sally",
+      "customerLastName": "West",
+      "email": "sally@example.com",
+      "phoneNumber": "111-111-1111"
     },
-    {
+    "productInformation": {
+      "orderedProducts": [
+        {
+          "productID": 3,
+          "quantity": "250",
+          "productName": "clothes",
+          "price": 20.11,
+          "stockQuantity": 500
+        },
+        {
+          "productID": 4,
+          "quantity": "10",
+          "productName": "window",
+          "price": 50.55,
+          "stockQuantity": 30
+        }
+      ]
+    }
+  },
+  {
+    "orderID": 3,
+    "orderDate": "03/16/2023",
+    "orderMethod": "Standard",
+    "status": "pending",
+    "shippingZipCode": "79415",
+    "customerInformation": {
       "customerID": 3,
-      "customerName": "John",
+      "customerFirstName": "John",
+      "customerLastName": "Doe",
       "email": "john@example.com",
-      "phoneNumber": "281-777-7777",
-      "orders": [5]
-    }
-  ],
-  "productInformation": [
-    {
-      "productID": 1,
-      "productName": "item1",
-      "price": "22.50",
-      "stockQuantity": 4
+      "phoneNumber": "333-333-3333"
     },
-    {
-      "productID": 2,
-      "productName": "item2",
-      "price": "66.78",
-      "stockQuantity": 6
-    },
-    {
-      "productID": 3,
-      "productName": "item3",
-      "price": "12.55",
-      "stockQuantity": 3
+    "productInformation": {
+      "orderedProducts": [
+        {
+          "productID": 5,
+          "quantity": "70",
+          "productName": "phone",
+          "price": 300.00,
+          "stockQuantity": 110
+        },
+        {
+          "productID": 6,
+          "quantity": "90",
+          "productName": "lamp",
+          "price": 15.99,
+          "stockQuantity": 70
+        }
+      ]
     }
-  ]
-}
+  }
+]
