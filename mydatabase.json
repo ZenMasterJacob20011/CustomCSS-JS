@@ -4,6 +4,7 @@
     "orderDate": "12/12/2024",
     "orderMethod": "Standard",
     "status": "shipped",
+    "shippingState": "Texas",
     "shippingZipCode": "78735",
     "customerInformation": {
       "customerID": 1,
@@ -36,7 +37,8 @@
     "orderDate": "04/23/2024",
     "orderMethod": "Expedite",
     "status": "delivered",
-    "shippingZipCode": "77450",
+    "shippingState": "Michigan",
+    "shippingZipCode": "48111",
     "customerInformation": {
       "customerID": 2,
       "customerFirstName": "Sally",
@@ -68,7 +70,8 @@
     "orderDate": "03/16/2023",
     "orderMethod": "Standard",
     "status": "pending",
-    "shippingZipCode": "79415",
+    "shippingState": "Minnesota",
+    "shippingZipCode": "55003",
     "customerInformation": {
       "customerID": 3,
       "customerFirstName": "John",
